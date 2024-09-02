@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /* background-image: url("https://plus.unsplash.com/premium_photo-1661443781814-333019eaad2d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXNzZXQlMjBtYW5hZ2VtZW50fGVufDB8fDB8fHww"); */
+    background-image: url('../public/Assetbg2.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0%; /* Right side ke liye space */
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #000; /* Icon color */
+  font-size: 1.2rem; /* Icon size */
+
+}
